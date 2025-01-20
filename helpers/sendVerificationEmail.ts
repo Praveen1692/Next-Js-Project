@@ -12,7 +12,7 @@ export async function sendVerificationEmail(
         from:"onboarding@resend.dev",
         to:email,
         subject: "Next Verification Code",
-        react:<Email url=""/>,
+        react:VerificationEmail(username,otp:verifyCode),
        
        
 
